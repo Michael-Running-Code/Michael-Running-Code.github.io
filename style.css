@@ -109,3 +109,48 @@ footer {
   padding: 3rem 0;
   color: #888;
 }
+
+.bg-gif {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('images/bg-gif.gif') center/cover no-repeat;
+  z-index: -2;
+  opacity: 0.3;  /* low opacity so text readable */
+}
+
+main.container {
+  position: relative;
+  z-index: 1;
+  background: rgba(15,15,26,0.75);  /* semi-transparent dark overlay */
+  backdrop-filter: blur(4px);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+
+.bg-section {
+  position: relative;
+  padding: 3rem 2rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+}
+
+.bg-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(15,15,26,0.75);
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.bg-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.bg1 { background-image: url('images/engineering.gif'); }
+.bg2 { background-image: url('images/code.gif'); }
+.bg3 { background-image: url('images/data.gif'); }
