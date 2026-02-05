@@ -9,39 +9,43 @@
 </head>
 
 <body>
+    <div class="bg-gif"></div>
 
+    <main class="big-container">
+        <h1>Projects</h1>
 
-    <section class="project">
-        <h2>Sport Gear Search Engine</h2>
+        <section class="project">
+            <h2>Sport Gear Search Engine</h2>
 
-        <div>
-            <a href="https://github.com/Michael-Running-Code/Sport-Gear-Search-Engine-ML-" target="_blank"
-                rel="noopener noreferrer">
+            <div>
+                <a href="https://github.com/Michael-Running-Code/Sport-Gear-Search-Engine-ML-" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="images/sport-gear-search.png" alt="Sport Gear Search Engine project preview" width="400">
+                </a>
+            </div>
 
-                <img src="images/sport-gear-search.png" alt="Sport Gear Search Engine project preview" width="400">
-            </a>
+            <p>
+                AI-powered running shoe recommender using Strava activity data. Analyzes runner profile (cushioned,
+                daily trainer, road, long run, etc.) and matches to running shoes.
+            </p>
+            <p><strong>Role:</strong> Full-stack: Built FastAPI backend, Random Forest multi-label classification,
+                Playwright web crawler, TF-IDF search engine, responsive HTML/JS/CSS dashboard with pagination.</p>
+            <p><strong>Technologies:</strong> Python, FastAPI, scikit-learn, Playwright, SQLite, HTML/CSS/JavaScript</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>login system</li>
+                <li>Strava OAuth login & data sync (distance, pace, cadence, HR, elevation)</li>
+                <li>Random Forest classifies runner style from real run data</li>
+                <li>Web crawler scrapes Nike shoes</li>
+                <li>TF-IDF matches profile to shoes → top-3 recommendations with % match</li>
+                <li>Responsive dashboard</li>
+            </ul>
+        </section>
+
+        <div class="actions">
+            <a href="index.html"><button>Home Page</button></a>
         </div>
-        <p>
-            A personalized search engine for runners to find the most suitable Garmin running gear
-            based on running type and preferences. The system classifies runners using machine learning
-            and matches them with recommended products.
-        </p>
-        <p><strong>Role:</strong> Designed the front-end interface, implemented the search engine logic,
-            integrated ML-based classification, and visualized the results for user-friendly browsing.</p>
-        <p><strong>Technologies:</strong> Python, Machine Learning (scikit-learn), Web Crawling, HTML/CSS/JS</p>
-        <p><strong>Key Features:</strong></p>
-        <ul>
-            <li>Classifies runner types based on fetching sport watch data</li>
-            <li>Search and filter gear recommendations using classified keywords</li>
-            <li>Interactive front-end for easy navigation</li>
-            <li>Backend logic for fetching, cleaning, and ranking products</li>
-        </ul>
-    </section>
-
-    <div class="actions">
-        <a href="index.html">Home Page</a>
-    </div>
-
+    </main>
 </body>
 
 
