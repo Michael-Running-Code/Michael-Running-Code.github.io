@@ -59,7 +59,8 @@ p {
   margin: 2rem 0;
 }
 
-button, .btn {
+button,
+.btn {
   padding: 14px 28px;
   background: #00d4ff;
   color: #000;
@@ -119,7 +120,8 @@ footer {
 main.container {
   position: relative;
   z-index: 1;
-  background: rgba(15,15,26,0.75);  /* semi-transparent dark overlay */
+  background: rgba(15, 15, 26, 0.75);
+  /* semi-transparent dark overlay */
   backdrop-filter: blur(4px);
   padding: 4rem 2rem;
   border-radius: 12px;
@@ -139,17 +141,17 @@ main.container {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(15,15,26,0.75);
+  background: rgba(15, 15, 26, 0.75);
   z-index: 0;
   border-radius: 12px;
 }
 
-.bg-section > * {
+.bg-section>* {
   position: relative;
   z-index: 1;
 }
 
-.info-container{
+.info-container {
   position: relative;
   border: 2px solid #00d4ff;
   padding: 3rem 2rem;
@@ -163,7 +165,7 @@ main.container {
   max-width: 900px;
   margin: 4rem auto;
   padding: 3rem 2rem;
-  background: rgba(15,15,26,0.8);
+  background: rgba(15, 15, 26, 0.8);
   border-radius: 16px;
   border: 2px solid #00d4ff;
   text-align: center;
@@ -179,24 +181,21 @@ main.container {
   display: block;
   margin: 0 auto 2rem auto;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,212,255,0.2);
-}
-
-.demo-Project{
-  display:"block"
-}
-
-.project img {
+  box-shadow: 0 8px 20px rgba(0, 212, 255, 0.2);
   max-width: 100%;
   height: auto;
-  display: block;
 }
+
+.demo-Project {
+  display: "block"
+}
+
 
 .round-img {
   border-radius: 20px;
 }
 
-.project-container{
+.project-container {
   position: relative;
   border: 2px solid #00d4ff;
   padding: 3rem 2rem;
