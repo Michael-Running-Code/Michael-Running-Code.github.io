@@ -205,3 +205,17 @@ main.container {
   border-radius: 16px;
   text-align: center;
 }
+
+.project-container img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;               /* ← makes it fill container width on small screens */
+  object-fit: cover;         /* optional: keeps aspect ratio nicely */
+}
+
+@media (min-width: 768px) {
+  .project-container img {
+    width: 400px;            /* your original desktop size */
+    max-width: 400px;
+  }
+}
