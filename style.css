@@ -17,6 +17,7 @@ body {
   color: #e0e0ff;
   line-height: 1.6;
   text-align: center;
+  padding-top: 250px;
 }
 
 
@@ -235,12 +236,19 @@ nav ul {
 }
 
 .nav-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #000;
+  padding: 1rem 1.5rem;
 }
 
 @media (max-width: 768px) {
+  body {
+    padding-top: 250px;
+  }
   .hamburger {
     display: block;
   }
