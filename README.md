@@ -1,4 +1,4 @@
-# Michael Tam - Front-End Developer Portfolio
+# Michael Tam - Software Developer Portfolio
 
 Personal portfolio website showcasing my transition from mechanical engineering to front-end development.
 
